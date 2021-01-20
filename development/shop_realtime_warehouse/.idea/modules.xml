@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shop_canal_client/shop_canal_client.iml" filepath="$PROJECT_DIR$/shop_canal_client/shop_canal_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_common/shop_common.iml" filepath="$PROJECT_DIR$/shop_common/shop_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_data_simulator/shop_data_simulator.iml" filepath="$PROJECT_DIR$/shop_data_simulator/shop_data_simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_druid/shop_druid.iml" filepath="$PROJECT_DIR$/shop_druid/shop_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_phoenix/shop_phoenix.iml" filepath="$PROJECT_DIR$/shop_phoenix/shop_phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_publisher/shop_publisher.iml" filepath="$PROJECT_DIR$/shop_publisher/shop_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_realtime_etl/shop_realtime_etl.iml" filepath="$PROJECT_DIR$/shop_realtime_etl/shop_realtime_etl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shop_realtime_warehouse.iml" filepath="$PROJECT_DIR$/.idea/shop_realtime_warehouse.iml" />
+    </modules>
+  </component>
+</project>

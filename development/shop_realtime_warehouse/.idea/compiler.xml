@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop_canal_client" />
+        <module name="shop_common" />
+        <module name="shop_realtime_etl" />
+        <module name="shop_druid" />
+        <module name="shop_data_simulator" />
+        <module name="shop_phoenix" />
+        <module name="shop_publisher" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop_canal_client" target="1.8" />
+      <module name="shop_common" target="1.8" />
+      <module name="shop_data_simulator" target="1.8" />
+      <module name="shop_druid" target="1.8" />
+      <module name="shop_phoenix" target="1.8" />
+      <module name="shop_publisher" target="1.8" />
+      <module name="shop_realtime_etl" target="1.8" />
+      <module name="shop_realtime_warehouse" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

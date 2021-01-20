@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bigdata.ln.mapper.CartMapper">
+    <resultMap id="BaseResultMap" type="com.bigdata.ln.pojo.CartPojo">
+        <id column="rowid" jdbcType="VARCHAR" property="rowid"/>
+        <id column="goodsId" jdbcType="VARCHAR" property="goodsId"/>
+        <id column="shopName" jdbcType="VARCHAR" property="shopName"/>
+        <id column="goodsName" jdbcType="VARCHAR" property="goodsName"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        "rowid", "goodsId", "shopName", "goodsName"
+    </sql>
+    <select id="getCartDataByGoodsId" resultMap="BaseResultMap">
+        SELECT
+        "rowid", "goodsId", "shopName", "goodsName"
+        FROM "dwd_itcast_cart" WHERE "goodsId" = #{goodsId}
+    </select>
+
+    <select id="getCartData" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM "dwd_itcast_cart"
+    </select>
+    
+    <select id="getCartCountsByUserId" resultType="java.lang.Integer">
+        SELECT COUNT(1) AS "counts" FROM "dwd_itcast_cart" WHERE "userId" = #{userId}
+    </select>
+
+    <!--查询数据条数-->
+    <select id="getCartCounts" resultType="java.lang.Integer">
+        SELECT COUNT(1) AS "total" FROM "dwd_itcast_cart"
+    </select>
+
+</mapper>
