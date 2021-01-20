@@ -12,16 +12,12 @@ import java.util.Properties;
  * @ date: 2020/12/16 11:56
  */
 public class KafkaProducerTest {
-
     Properties properties = null;
     KafkaProducer<String, CanalRowData> kafkaProducer;
     public KafkaProducerTest() {
         properties = new Properties();
         kafkaProducer = new KafkaProducer<String, CanalRowData>(properties);
 //        properties
-
-
-
     }
 
     public void send(CanalRowData canalRowData){
