@@ -19,6 +19,7 @@ public class KafkaProducerTest {
         properties = new Properties();
         kafkaProducer = new KafkaProducer<String, CanalRowData>(properties);
 //        properties
+
     }
 
     public void send(CanalRowData canalRowData){
