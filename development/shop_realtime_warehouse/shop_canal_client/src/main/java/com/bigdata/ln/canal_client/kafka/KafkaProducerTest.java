@@ -21,6 +21,7 @@ public class KafkaProducerTest {
 //        properties
 
 
+
     }
 
     public void send(CanalRowData canalRowData){
